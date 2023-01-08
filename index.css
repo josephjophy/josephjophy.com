@@ -1,71 +1,35 @@
-
-.main{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body{
     text-align: center;
-    margin-top: 50px;
 }
-.profile-pic-image{
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-}
+
 .name{
-    font-size: 60px;
-    margin-top: 10px;
+    font-size: 5vmin;
+    background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   animation: gradient 1s ease infinite;
+   margin-top: 3%;
 }
 
-.projects{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 30px;
-    margin-left: 60px;
+.profile-pic-img{
+    height: 30vmin;
+    width: 30vmin;
+    margin-top: 5%;
+    border-radius: 100%;
 }
 
-.projects-header{
-    font-size: 40px;
+ #message-icon-img,#github-icon-img,#linkedin-icon-img{
+    margin-top: 3%;
+    height: 7.5vmin;
+    width: 7.5vmin;
 }
 
-.project-rateuh{
-    margin-top: 30px;
+#message-icon-img:not(:hover),#github-icon-img:not(:hover),#linkedin-icon-img:not(:hover){
+   filter: brightness(0);
 }
 
-.info-1{
-    margin-top: 30px;
-}
-
-.contact{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-top: 30px;
-    margin-left: 60px;
-}
-
-.contact-header{
-    font-size: 40px;
-}
-
-textarea{
-    height: 10vmax;
-    width: 50vmax;
-    margin-top: 10px;
-    border-radius: 10px;
-    font-size: 20px;
-}
-
-input[type="submit"]{
-    background-color:rgb(20, 160, 20);
-    border-color: green;
-    color: white;
-    border-radius: 10px;
-    border-style: solid;
-    height: 50px;
-    width: 100px;
-    font-size: 15px;
-    margin-top: 10px;
-}
-
-input[type="submit"]:hover{
-    background-color: green;
-    cursor:pointer;
-}
-
+#message-icon-img:hover,#github-icon-img:hover,#linkedin-icon-img:hover{
+    cursor: pointer;
+ }
 
 
